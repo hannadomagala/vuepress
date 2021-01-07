@@ -1,0 +1,27 @@
+{
+  "name": "VuePress",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "index.js",
+  "authors": {
+    "name": "Hanna",
+    "email": "domagala.h@gmail.com"
+  },
+  "repository": "/VuePress",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.0",
+    "@vuepress/plugin-medium-zoom": "^1.8.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue-recaptcha-v3": "1.9.0"
+  }
+}
